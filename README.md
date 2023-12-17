@@ -1,3 +1,31 @@
+# Create some empty vectors to hold data temporarily
+
+# City name column
+city <- c()
+# Weather column, rainy or cloudy, etc
+weather <- c()
+# Sky visibility column
+visibility <- c()
+# Current temperature column
+temp <- c()
+# Max temperature column
+temp_min <- c()
+# Min temperature column
+temp_max <- c()
+# Pressure column
+pressure <- c()
+# Humidity column
+humidity <- c()
+# Wind speed column
+wind_speed <- c()
+# Wind direction column
+wind_deg <- c()
+# Forecast timestamp
+forecast_datetime <- c()
+# Season column
+# Note that for season, you can hard code a season value from levels Spring, Summer, Autumn, and Winter based on your current month.
+season <- c()
+
 # Get forecast data for a given city list
 get_weather_forecaset_by_cities <- function(city_names){
   weather_data_frame <- data.frame()
